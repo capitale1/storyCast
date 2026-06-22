@@ -1,0 +1,23 @@
+// ─── Color Tokens ────────────────────────────────────────────────────────────
+// StoryCast Art palette: warm earth, gold, deep forest, ivory, midnight
+
+$color-midnight:     #0E0C0A;   // page background — deep warm black
+$color-soil:         #1C1712;   // card surfaces — dark earth
+$color-soil-mid:     #2A2218;   // borders, dividers
+$color-terracotta:   #C4522A;   // primary accent — fired clay
+$color-terracotta-dim: #9E3E1C; // hover/pressed
+$color-gold:         #D4A843;   // secondary accent — ochre gold
+$color-ivory:        #F5F0E8;   // body text
+$color-sand:         #A89880;   // secondary text, metadata
+$color-forest:       #2D5A3D;   // category badges, success
+$color-forest-light: #4A8C5C;   // forest hover
+$color-signal:       #C4522A;   // featured indicator (same as terracotta)
+
+// Semantic aliases
+$bg-page:            $color-midnight;
+$bg-surface:         $color-soil;
+$bg-border:          $color-soil-mid;
+$text-primary:       $color-ivory;
+$text-secondary:     $color-sand;
+$text-accent:        $color-terracotta;
+$focus-ring:         $color-gold;
