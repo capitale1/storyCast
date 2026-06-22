@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About StoryCast — our mission to make African art accessible to every visitor, with full image descriptions, artist statements, and ARIA support." />
+  <title>About & Access — StoryCast</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="StoryCast home">
+        <span class="site-header__logo-mark" aria-hidden="true">◈</span>
+        StoryCast
+      </a>
+      <button class="site-nav__toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav aria-label="Primary navigation">
+        <ul class="site-nav" id="primary-nav" role="list">
+          <li><a class="site-nav__link" href="index.html">Home</a></li>
+          <li><a class="site-nav__link" href="story/el-anatsui.html">Artists</a></li>
+          <li><a class="site-nav__link" href="about.html" aria-current="page">About & Access</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Mission -->
+    <section class="page-section" aria-labelledby="mission-heading">
+      <div class="container">
+        <div class="mission-block">
+          <p class="section-label" aria-hidden="true">Why we exist</p>
+          <h1 class="mission-block__quote" id="mission-heading">
+            African art belongs to <em>everyone</em> who wants to see it.
+          </h1>
+          <p class="mission-block__body">
+            StoryCast was built on the belief that access to art should not depend
+            on where you live, whether you can visit a gallery, or whether you can
+            see. We publish African art and artists with full image descriptions,
+            artist statements in plain language, and every accessibility feature
+            we know how to build.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="page-section" aria-labelledby="what-heading">
+      <div class="container">
+        <p class="section-label" aria-hidden="true">What we publish</p>
+        <h2 class="section-title" id="what-heading">Art in every form</h2>
+        <p class="section-subtitle">We work with artists, estates, curators, and cultural institutions across the continent to document and share African creative work.</p>
+
+        <div class="feature-grid" style="margin-top:2.5rem;">
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">🎨</div>
+            <h3 class="feature-card__title">Painting & Drawing</h3>
+            <p class="feature-card__body">
+              From Kinshasa's popular painters to the abstract canvases
+              coming out of contemporary Lagos, Dakar, and Addis Ababa —
+              every work accompanied by a full visual description.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">🗿</div>
+            <h3 class="feature-card__title">Sculpture & Installation</h3>
+            <p class="feature-card__body">
+              Three-dimensional works presented through multiple views
+              with written descriptions that convey scale, material,
+              texture, and spatial relationship.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">🧵</div>
+            <h3 class="feature-card__title">Textile & Craft</h3>
+            <p class="feature-card__body">
+              Kente weaving, imigongo, kanga, mud cloth, silk tapestry —
+              traditions that carry encyclopaedias of cultural knowledge
+              in their patterns and making.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">📷</div>
+            <h3 class="feature-card__title">Photography</h3>
+            <p class="feature-card__body">
+              Documentary and fine art photography from across the
+              continent, presented with extended captions and full
+              contextual descriptions for every image.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Accessibility -->
+    <section class="page-section" id="accessibility" aria-labelledby="a11y-heading">
+      <div class="container">
+        <p class="section-label" aria-hidden="true">WCAG AA compliance</p>
+        <h2 class="section-title" id="a11y-heading">Accessibility commitment</h2>
+        <p class="section-subtitle">We follow WCAG 2.1 Level AA throughout. Here is what that means on StoryCast.</p>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(22rem, 1fr)); gap:1.5rem; margin-top:2.5rem;">
+
+          <div class="a11y-checklist" aria-labelledby="image-access-heading">
+            <h3 class="a11y-checklist__header" id="image-access-heading">Image Accessibility</h3>
+            <ul class="a11y-checklist__list" role="list">
+              <li class="a11y-checklist__item">Every artwork has a figcaption describing medium, dimensions, and visual content in plain language.</li>
+              <li class="a11y-checklist__item">Extended image description panels on every artist page give a detailed written account of each work for screen reader users.</li>
+              <li class="a11y-checklist__item">Decorative SVGs and background images are hidden from assistive technology using aria-hidden.</li>
+              <li class="a11y-checklist__item">All meaningful images have descriptive alt text that conveys the content and purpose of the image, not just its file name.</li>
+            </ul>
+          </div>
+
+          <div class="a11y-checklist" aria-labelledby="nav-access-heading">
+            <h3 class="a11y-checklist__header" id="nav-access-heading">Navigation & Structure</h3>
+            <ul class="a11y-checklist__list" role="list">
+              <li class="a11y-checklist__item">A skip link is the first focusable element on every page, letting keyboard users jump straight to the main content.</li>
+              <li class="a11y-checklist__item">Every page uses clearly labelled landmark regions so screen reader users can jump between header, navigation, main content, sidebar, and footer.</li>
+              <li class="a11y-checklist__item">All interactive elements are reachable and usable by keyboard alone — no mouse required.</li>
+              <li class="a11y-checklist__item">Visible focus rings appear on every link, button, and form field when navigating by keyboard.</li>
+            </ul>
+          </div>
+
+          <div class="a11y-checklist" aria-labelledby="colour-access-heading">
+            <h3 class="a11y-checklist__header" id="colour-access-heading">Colour & Readability</h3>
+            <ul class="a11y-checklist__list" role="list">
+              <li class="a11y-checklist__item">Body text achieves a contrast ratio of over 14:1 against the page background — more than three times the WCAG AA minimum.</li>
+              <li class="a11y-checklist__item">Colour is never the only way information is communicated — labels, shapes, and text always accompany colour-coded elements.</li>
+              <li class="a11y-checklist__item">If your device is set to reduce motion, all animations and transitions on StoryCast are automatically turned off.</li>
+              <li class="a11y-checklist__item">Text can be zoomed to 200% without content overlapping or disappearing.</li>
+            </ul>
+          </div>
+
+          <div class="a11y-checklist" aria-labelledby="aria-access-heading">
+            <h3 class="a11y-checklist__header" id="aria-access-heading">Screen Reader Support</h3>
+            <ul class="a11y-checklist__list" role="list">
+              <li class="a11y-checklist__item">Collapsible panels (description sections, mobile navigation) use aria-expanded so screen readers announce whether each panel is open or closed.</li>
+              <li class="a11y-checklist__item">The active page is identified in every navigation menu with aria-current so screen reader users always know where they are.</li>
+              <li class="a11y-checklist__item">Artist metadata (birthplace, medium, dates) uses definition list markup so screen readers associate each label with its value correctly.</li>
+              <li class="a11y-checklist__item">Icon-only elements and ambiguous controls carry aria-label descriptions so screen readers can explain what they do.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div style="margin-top:2rem; padding:1.5rem; background:#1C1712; border:1px solid #2A2218; border-radius:0.5rem;">
+          <p style="font-size:0.875rem; color:#A89880; line-height:1.8;">
+            <strong style="color:#F5F0E8;">Get in touch:</strong>
+            If you encounter any barrier while using StoryCast — whether you cannot access
+            an image description, a page is not working with your screen reader, or
+            anything else — please contact us at
+            <a href="mailto:access@storycast.example" style="color:#C4522A;">access@storycast.example</a>.
+            We treat accessibility reports as urgent and aim to respond within 48 hours.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engage -->
+    <section class="page-section" aria-labelledby="engage-heading">
+      <div class="container">
+        <p class="section-label" aria-hidden="true">Get involved</p>
+        <h2 class="section-title" id="engage-heading">How you can engage</h2>
+
+        <div class="feature-grid" style="margin-top:2rem;">
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">👁</div>
+            <h3 class="feature-card__title">Explore the collection</h3>
+            <p class="feature-card__body">
+              Browse artists by country, medium, or time period.
+              Every page is designed to work equally well visually
+              and with a screen reader.
+            </p>
+            <a href="story/el-anatsui.html" class="btn btn--outline" style="margin-top:auto;">Browse artists</a>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">✉️</div>
+            <h3 class="feature-card__title">Submit an artist</h3>
+            <p class="feature-card__body">
+              Know an African artist whose work deserves wider attention?
+              We welcome submissions from artists, estates, curators,
+              and cultural advocates.
+            </p>
+            <a href="mailto:submit@storycast.example" class="btn btn--outline" style="margin-top:auto;">Submit a suggestion</a>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">🔤</div>
+            <h3 class="feature-card__title">Write descriptions</h3>
+            <p class="feature-card__body">
+              Our image descriptions are written by humans, not generated.
+              If you have expertise in African art and want to contribute,
+              we would love to work with you.
+            </p>
+            <a href="mailto:volunteer@storycast.example" class="btn btn--outline" style="margin-top:auto;">Get in touch</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="page-section" id="team" aria-labelledby="team-heading">
+      <div class="container">
+        <p class="section-label" aria-hidden="true">The people</p>
+        <h2 class="section-title" id="team-heading">Our team</h2>
+
+        <div style="margin-top:2.5rem; max-width:18rem;">
+          <article class="team-card" aria-label="Team member: Aime Ndayambaje, Founder and Editor">
+            <svg class="team-card__img" aria-hidden="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="200" height="200" fill="#1C1712"/>
+              <circle cx="100" cy="75" r="40" fill="#2A2218"/>
+              <circle cx="100" cy="75" r="32" fill="#A89880" opacity="0.4"/>
+              <ellipse cx="100" cy="160" rx="60" ry="50" fill="#2A2218"/>
+              <rect x="0" y="185" width="200" height="15" fill="#C4522A" opacity="0.3"/>
+            </svg>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Aime Ndayambaje</h3>
+              <p class="team-card__role">Founder & Editor</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-header__logo" aria-label="StoryCast home" style="font-size:1.25rem;">
+            <span class="site-header__logo-mark" aria-hidden="true">◈</span>
+            StoryCast
+          </a>
+          <p>African art and artists, accessible to everyone.</p>
+        </div>
+        <nav aria-label="Footer navigation — Artists">
+          <p class="site-footer__heading">Artists</p>
+          <ul class="site-footer__links" role="list">
+            <li><a href="story/el-anatsui.html">El Anatsui</a></li>
+            <li><a href="story/el-anatsui.html">Wangechi Mutu</a></li>
+            <li><a href="story/el-anatsui.html">Billie Zangewa</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer navigation — About">
+          <p class="site-footer__heading">About</p>
+          <ul class="site-footer__links" role="list">
+            <li><a href="about.html">Mission</a></li>
+            <li><a href="about.html#accessibility">Accessibility</a></li>
+            <li><a href="about.html#team">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2025 StoryCast.</p>
+        <a href="about.html#accessibility">Accessibility statement</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.site-nav__toggle');
+    const nav = document.querySelector('.site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen);
+        toggle.textContent = isOpen ? '✕' : '☰';
+      });
+    }
+  </script>
+
+</body>
+</html>
