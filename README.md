@@ -153,3 +153,6 @@ sass --watch sass/main.scss css/main.css
 - Vanilla JavaScript (mobile nav, panel toggles)
 - Google Fonts (Cormorant Garamond, DM Sans, DM Mono)
 - Inline SVG for all illustrations
+
+# High fedelity figma mockup: https://www.figma.com/design/GQdrCvnIffY5HrmjxdB5TQ/Untitled?t=Erd1enofUGVcjyfk-0
+# Sitemap figma mockup: https://www.figma.com/board/bkQNrM8YmWM21wYGNwCYou/StoryCast?node-id=0-1&p=f&t=Hw3JdkXTGmOMa8k5-0
